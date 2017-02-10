@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'oa_iconfont';
+    src:    url('../fonts/oa_iconfont.eot?q2g87c');
+    src:    url('../fonts/oa_iconfont.eot?q2g87c#iefix') format('embedded-opentype'),
+    url('../fonts/oa_iconfont.ttf?q2g87c') format('truetype'),
+    url('../fonts/oa_iconfont.woff?q2g87c') format('woff'),
+    url('../fonts/oa_iconfont.svg?q2g87c#oa_iconfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="landing_"], [class*=" landing_"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'oa_iconfont' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/*.landing_comment_left:before {*/
+    /*content: "\e90b";*/
+/*}*/
+/*.landing_comment_right:before {*/
+    /*content: "\e90c";*/
+/*}*/
+
+.landing_fuc_contact:before {
+    content: "\e901";
+}
+.landing_fuc_check:before {
+    content: "\e900";
+}
+.landing_fuc_process:before {
+    content: "\e902";
+}
+
+.landing_fuc_project:before {
+    content: "\e903";
+}
+.landing_price_member:before {
+    content: "\e904";
+}
+.landing_price_project:before {
+    content: "\e905";
+}
+.landing_price_space:before {
+    content: "\e906";
+}
+
+.landing_why_contact:before {
+    content: "\e907";
+}
+.landing_why_moble:before {
+    content: "\e908";
+}
+.landing_why_process:before {
+    content: "\e909";
+}
+.landing_why_project:before {
+    content: "\e90a";
+}
+
